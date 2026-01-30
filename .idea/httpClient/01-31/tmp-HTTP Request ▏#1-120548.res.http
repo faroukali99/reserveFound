@@ -1,0 +1,21 @@
+// Status: 200, time: 18ms, size: 90 B
+### HTTP Request ▏#1
+GET http://localhost:8083/api/health HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-type: application/json
+date: Fri, 30 Jan 2026 23:05:47 GMT
+expires: 0
+pragma: no-cache
+transfer-encoding: chunked
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 0
+
+{
+  "service": "reserve-fund-service",
+  "status": "UP",
+  "timestamp": "2026-01-31T00:05:47.9751433"
+}
+>> C:\Projet java\LidCoin Project\reserveFound_service\.idea\httpClient\01-31\HTTP Request ▏#1\2026-01-31T000548.json

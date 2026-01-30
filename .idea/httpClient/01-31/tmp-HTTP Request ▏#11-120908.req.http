@@ -1,0 +1,6 @@
+// Size: 0 B
+### HTTP Request ▏#11
+GET http://localhost:8083/api/reserve-funds/user/1/balance HTTP/1.1
+Accept: application/json
+Content-Length: 0
+

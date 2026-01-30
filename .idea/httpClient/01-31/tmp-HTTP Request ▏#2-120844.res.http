@@ -1,0 +1,39 @@
+// Status: 201, time: 166ms, size: 434 B
+### HTTP Request ▏#2
+POST http://localhost:8083/api/reserve-funds HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-type: application/json
+date: Fri, 30 Jan 2026 23:08:44 GMT
+expires: 0
+pragma: no-cache
+transfer-encoding: chunked
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 0
+
+{
+  "data": {
+    "amount": 1000.00,
+    "balance": 1000.00,
+    "blockNumber": null,
+    "createdBy": null,
+    "createdDate": "2026-01-31T00:08:44.625738",
+    "currency": "XOF",
+    "description": "Initial deposit",
+    "destinationAccount": null,
+    "id": 5,
+    "reference": "RF-1F3644AA",
+    "sourceAccount": null,
+    "status": "ACTIVE",
+    "transactionHash": null,
+    "transactionType": "DEPOSIT",
+    "updatedBy": null,
+    "updatedDate": null,
+    "userId": 1
+  },
+  "success": true,
+  "message": "Fonds de réserve créé avec succès"
+}
+>> C:\Projet java\LidCoin Project\reserveFound_service\.idea\httpClient\01-31\HTTP Request ▏#2\2026-01-31T000844.json

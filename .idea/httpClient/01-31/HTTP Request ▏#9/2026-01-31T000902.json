@@ -1,0 +1,21 @@
+[
+  {
+    "amount": 1000.00,
+    "balance": 1000.00,
+    "blockNumber": null,
+    "createdBy": null,
+    "createdDate": "2026-01-31T00:08:44.625738",
+    "currency": "XOF",
+    "description": "Initial deposit",
+    "destinationAccount": null,
+    "id": 5,
+    "reference": "RF-1F3644AA",
+    "sourceAccount": null,
+    "status": "ACTIVE",
+    "transactionHash": null,
+    "transactionType": "DEPOSIT",
+    "updatedBy": null,
+    "updatedDate": null,
+    "userId": 1
+  }
+]

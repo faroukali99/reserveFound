@@ -1,0 +1,4 @@
+{
+  "success": false,
+  "message": "Validation failed for classes [com.lidcoin.reserveFound.domain.model.ReserveFund] during persist time for groups [jakarta.validation.groups.Default, ]\nList of constraint violations:[\n\tConstraintViolationImpl{interpolatedMessage='Le solde est obligatoire', propertyPath=balance, rootBeanClass=class com.lidcoin.reserveFound.domain.model.ReserveFund, messageTemplate='Le solde est obligatoire'}\n]"
+}

@@ -1,0 +1,6 @@
+// Size: 0 B
+### HTTP Request ▏#5
+POST http://localhost:8083/api/reserve-funds/transfer?fromUserId=1&toUserId=2&amount=100.00&description=Gift HTTP/1.1
+Content-Type: application/json
+Content-Length: 0
+

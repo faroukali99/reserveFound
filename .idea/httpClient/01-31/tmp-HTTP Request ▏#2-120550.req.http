@@ -1,0 +1,14 @@
+// Size: 149 B
+### HTTP Request ▏#2
+POST http://localhost:8083/api/reserve-funds HTTP/1.1
+Content-Type: application/json
+Content-Length: 149
+
+{
+  "amount": 1000.00,
+  "currency": "XOF",
+  "transactionType": "DEPOSIT",
+  "description": "Initial deposit",
+  "userId": 1,
+  "status": "ACTIVE"
+}
