@@ -1,0 +1,23 @@
+{
+  "data": {
+    "amount": 500.00,
+    "balance": 500.00,
+    "blockNumber": null,
+    "createdBy": null,
+    "createdDate": "2026-01-31T00:08:47.1609637",
+    "currency": "XOF",
+    "description": "Additional deposit",
+    "destinationAccount": null,
+    "id": 6,
+    "reference": "RF-139410FE",
+    "sourceAccount": null,
+    "status": "COMPLETED",
+    "transactionHash": null,
+    "transactionType": "DEPOSIT",
+    "updatedBy": null,
+    "updatedDate": null,
+    "userId": 1
+  },
+  "success": true,
+  "message": "Dépôt effectué avec succès"
+}

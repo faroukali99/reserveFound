@@ -1,0 +1,16 @@
+// Status: 403, time: 90ms, size: 0 B
+### HTTP Request ▏#2
+POST http://localhost:8083/api/reserve-funds HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-length: 0
+date: Fri, 30 Jan 2026 23:03:33 GMT
+expires: 0
+pragma: no-cache
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 0
+
+
+>> C:\Projet java\LidCoin Project\reserveFound_service\.idea\httpClient\01-31\HTTP Request ▏#2\2026-01-31T000333.txt

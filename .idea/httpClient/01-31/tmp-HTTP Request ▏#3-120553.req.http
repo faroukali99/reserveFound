@@ -1,0 +1,6 @@
+// Size: 0 B
+### HTTP Request ▏#3
+POST http://localhost:8083/api/reserve-funds/deposit?userId=1&amount=500.00&description=Additional+deposit HTTP/1.1
+Content-Type: application/json
+Content-Length: 0
+

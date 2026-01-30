@@ -1,7 +1,12 @@
-### Variables
-@baseUrl = http://localhost:8080/api/reserve-funds
+@baseUrl = http://localhost:8083/api/reserve-funds
 @userId = 1
 @recipientId = 2
+
+###
+
+GET http://localhost:8083/api/health
+
+###
 
 POST {{baseUrl}}
 Content-Type: application/json
@@ -14,43 +19,68 @@ Content-Type: application/json
   "userId": {{userId}},
   "status": "ACTIVE"
 }
+
 ###
+
 POST {{baseUrl}}/deposit?userId={{userId}}&amount=500.00&description=Additional+deposit
 Content-Type: application/json
 
+###
 
 POST {{baseUrl}}/withdraw?userId={{userId}}&amount=200.00&description=Emergency+withdrawal
 Content-Type: application/json
 
+###
+
 POST {{baseUrl}}/transfer?fromUserId={{userId}}&toUserId={{recipientId}}&amount=100.00&description=Gift
 Content-Type: application/json
+
+###
 
 GET {{baseUrl}}/1
 Accept: application/json
 
+###
+
 GET {{baseUrl}}/reference/REF-123456
 Accept: application/json
+
+###
 
 GET {{baseUrl}}/user/{{userId}}
 Accept: application/json
 
+###
+
 GET {{baseUrl}}/status/ACTIVE
 Accept: application/json
+
+###
 
 GET {{baseUrl}}
 Accept: application/json
 
+###
+
 GET {{baseUrl}}/user/{{userId}}/balance
 Accept: application/json
+
+###
 
 GET {{baseUrl}}/balance/total
 Accept: application/json
 
+###
+
 PUT {{baseUrl}}/1/status?status=FROZEN
 Accept: application/json
 
+###
+
 DELETE {{baseUrl}}/1
 Accept: application/json
+
+###
 
 GET {{baseUrl}}/user/{{userId}}/history?startDate=2023-01-01T00:00:00&endDate=2025-12-31T23:59:59
 Accept: application/json

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "amount": 1000000.00,
+    "balance": 1000000.00,
+    "blockNumber": null,
+    "createdBy": "system",
+    "createdDate": "2026-01-31T00:08:37.489503",
+    "currency": "XOF",
+    "description": "Dépôt initial - Fonds de réserve système",
+    "destinationAccount": null,
+    "id": 1,
+    "reference": "RF-INIT001",
+    "sourceAccount": null,
+    "status": "FROZEN",
+    "transactionHash": null,
+    "transactionType": "DEPOSIT",
+    "updatedBy": null,
+    "updatedDate": "2026-01-31T00:09:13.2423724",
+    "userId": 1
+  },
+  "success": true,
+  "message": "Statut mis à jour avec succès"
+}

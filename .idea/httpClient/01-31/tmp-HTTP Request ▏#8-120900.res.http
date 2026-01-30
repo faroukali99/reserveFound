@@ -1,0 +1,75 @@
+// Status: 200, time: 26ms, size: 1,13 kB
+### HTTP Request ▏#8
+GET http://localhost:8083/api/reserve-funds/user/1 HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-type: application/json
+date: Fri, 30 Jan 2026 23:09:00 GMT
+expires: 0
+pragma: no-cache
+transfer-encoding: chunked
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 0
+
+[
+  {
+    "amount": 1000000.00,
+    "balance": 1000000.00,
+    "blockNumber": null,
+    "createdBy": "system",
+    "createdDate": "2026-01-31T00:08:37.489503",
+    "currency": "XOF",
+    "description": "Dépôt initial - Fonds de réserve système",
+    "destinationAccount": null,
+    "id": 1,
+    "reference": "RF-INIT001",
+    "sourceAccount": null,
+    "status": "COMPLETED",
+    "transactionHash": null,
+    "transactionType": "DEPOSIT",
+    "updatedBy": null,
+    "updatedDate": null,
+    "userId": 1
+  },
+  {
+    "amount": 1000.00,
+    "balance": 1000.00,
+    "blockNumber": null,
+    "createdBy": null,
+    "createdDate": "2026-01-31T00:08:44.625738",
+    "currency": "XOF",
+    "description": "Initial deposit",
+    "destinationAccount": null,
+    "id": 5,
+    "reference": "RF-1F3644AA",
+    "sourceAccount": null,
+    "status": "ACTIVE",
+    "transactionHash": null,
+    "transactionType": "DEPOSIT",
+    "updatedBy": null,
+    "updatedDate": null,
+    "userId": 1
+  },
+  {
+    "amount": 500.00,
+    "balance": 500.00,
+    "blockNumber": null,
+    "createdBy": null,
+    "createdDate": "2026-01-31T00:08:47.160964",
+    "currency": "XOF",
+    "description": "Additional deposit",
+    "destinationAccount": null,
+    "id": 6,
+    "reference": "RF-139410FE",
+    "sourceAccount": null,
+    "status": "COMPLETED",
+    "transactionHash": null,
+    "transactionType": "DEPOSIT",
+    "updatedBy": null,
+    "updatedDate": null,
+    "userId": 1
+  }
+]
+>> C:\Projet java\LidCoin Project\reserveFound_service\.idea\httpClient\01-31\HTTP Request ▏#8\2026-01-31T000900.json

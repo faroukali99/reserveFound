@@ -1,0 +1,17 @@
+// Status: 200, time: 48ms, size: 2 B
+### HTTP Request ▏#15
+GET http://localhost:8083/api/reserve-funds/user/1/history?startDate=2023-01-01T00:00:00&endDate=2025-12-31T23:59:59 HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-type: application/json
+date: Fri, 30 Jan 2026 23:09:18 GMT
+expires: 0
+pragma: no-cache
+transfer-encoding: chunked
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 0
+
+[]
+>> C:\Projet java\LidCoin Project\reserveFound_service\.idea\httpClient\01-31\HTTP Request ▏#15\2026-01-31T000918.json

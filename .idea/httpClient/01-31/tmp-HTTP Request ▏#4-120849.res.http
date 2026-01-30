@@ -1,0 +1,21 @@
+// Status: 400, time: 108ms, size: 450 B
+### HTTP Request ▏#4
+POST http://localhost:8083/api/reserve-funds/withdraw?userId=1&amount=200.00&description=Emergency+withdrawal HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+connection: close
+content-type: application/json
+date: Fri, 30 Jan 2026 23:08:49 GMT
+expires: 0
+pragma: no-cache
+transfer-encoding: chunked
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 0
+
+{
+  "success": false,
+  "message": "Validation failed for classes [com.lidcoin.reserveFound.domain.model.ReserveFund] during persist time for groups [jakarta.validation.groups.Default, ]\nList of constraint violations:[\n\tConstraintViolationImpl{interpolatedMessage='Le solde ne peut pas être négatif', propertyPath=balance, rootBeanClass=class com.lidcoin.reserveFound.domain.model.ReserveFund, messageTemplate='Le solde ne peut pas être négatif'}\n]"
+}
+>> C:\Projet java\LidCoin Project\reserveFound_service\.idea\httpClient\01-31\HTTP Request ▏#4\2026-01-31T000849.json
